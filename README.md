@@ -1,1 +1,2 @@
-Code for learning how to create an AI agent using Google
+Code for learning how to create an AI agent using Google Gemini API
+

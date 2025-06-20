@@ -1,3 +1,5 @@
+#Defines actions the agent is allowed to take
+
 from google.genai import types
 
 from functions.get_files_info import schema_get_files_info,get_files_info
@@ -11,7 +13,7 @@ available_functions = types.Tool(
         schema_get_files_info,
         schema_get_file_content,
         schema_write_file,
-        schema_run_python_file ,
+        schema_run_python_file,
     ]
 )
 WORKING_DIR = "./calculator"

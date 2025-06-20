@@ -1,3 +1,4 @@
+#Allows the agent to browse a directory
 import os
 from google.genai import types
 
@@ -25,7 +26,7 @@ def get_files_info(working_directory, directory=None):
         return f"Error listing files: {e}"
     
   
-
+#Explain functionality to the agent
 schema_get_files_info = types.FunctionDeclaration(
     name="get_files_info",
     description="Lists files in the specified directory along with their sizes, constrained to the working directory.",
