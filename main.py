@@ -15,7 +15,7 @@ def main():
     args = [arg for arg in sys.argv[1:] if not arg.startswith("--")]
 
     if not args:
-        print("AI Code Assistant")
+        print("Gemeni Agent")
         print('\nUsage: python main.py "your prompt here" [--verbose]')
         print('Example: python main.py "How do I fix the calculator?"')
         sys.exit(1)        

@@ -16,7 +16,8 @@ available_functions = types.Tool(
         schema_run_python_file,
     ]
 )
-WORKING_DIR = "./calculator"
+# You supply your own
+WORKING_DIR = "./calculator" 
 
 def call_function(function_call_part, verbose=False):
     if verbose:
